@@ -37,7 +37,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold bg-gradient-warm bg-clip-text text-transparent">
+            <h1 className="text-2xl font-bold text-warm-orange hover:text-primary transition-colors duration-300">
               Partyservice Lenz
             </h1>
           </div>

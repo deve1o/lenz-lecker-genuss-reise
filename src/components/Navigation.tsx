@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -20,7 +21,6 @@ const Navigation = () => {
     { name: "Start", href: "#home" },
     { name: "Menü", href: "#menu" },
     { name: "Über uns", href: "#about" },
-    { name: "Blog", href: "#blog" },
     { name: "Galerie", href: "#gallery" },
   ];
 

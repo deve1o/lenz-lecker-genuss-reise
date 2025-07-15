@@ -1,3 +1,4 @@
+
 import { useEffect, useRef, useState } from "react";
 import { Award, Clock, Heart, Users } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
@@ -94,30 +95,6 @@ const AboutSection = () => {
                   </CardContent>
                 </Card>
               ))}
-            </div>
-          </div>
-        </div>
-
-        {/* Stats Section */}
-        <div className={`mt-20 transform transition-all duration-1000 delay-600 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-          <div className="bg-gradient-warm rounded-2xl p-8 sm:p-12 text-center text-primary-foreground shadow-elegant">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-              <div>
-                <div className="text-3xl sm:text-4xl font-bold mb-2">10+</div>
-                <div className="text-primary-foreground/80">Jahre Erfahrung</div>
-              </div>
-              <div>
-                <div className="text-3xl sm:text-4xl font-bold mb-2">500+</div>
-                <div className="text-primary-foreground/80">Events durchgeführt</div>
-              </div>
-              <div>
-                <div className="text-3xl sm:text-4xl font-bold mb-2">100%</div>
-                <div className="text-primary-foreground/80">Zufriedene Kunden</div>
-              </div>
-              <div>
-                <div className="text-3xl sm:text-4xl font-bold mb-2">24/7</div>
-                <div className="text-primary-foreground/80">Service-Hotline</div>
-              </div>
             </div>
           </div>
         </div>
